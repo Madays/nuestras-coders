@@ -1,0 +1,40 @@
+body {
+    margin: 20px 40px;
+}
+.container {
+
+    
+}
+h1 {
+
+}
+h1 span {
+    border-bottom: solid 2px black;
+    position: relative;
+    left: 130px;
+    width: 300px;
+}
+.container_fotos {
+
+    position: relative;
+    display: inline-block;
+    right: -110px;
+    padding: 20px;
+}
+div.foto {
+    display: inline-block;
+}
+img {
+
+}
+
+.foto span {
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    color: #fff;
+    z-index: 10;
+}
+
+
+
