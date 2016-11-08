@@ -1,45 +1,37 @@
 body {
-    margin: 20px 40px;
+    margin: 0 20px;
 }
 .container {
-    margin: 20px 40px;
-    
+    margin: 0 20px;
 }
-#linea {
+.titulo hr {
     position: absolute;
-    top:40px;
-    display: inline;
-    border-top: solid 2px black;
-    color: #fff;
+    width: 60px;
 }
-h1 span {
-    border-bottom: solid 2px black;
-    position: relative;
-    left: 130px;
-    width: 300px;
-}
-.container_fotos {
 
+.titulo {
+    font-size: 20px;
+}
+ul {
+    list-style: none;
+    padding: 0;   
+}
+li {
     position: relative;
     display: inline-block;
-    left: 90px;
-    right: 110px;
-    padding: 20px;
+    outline: 1px solid red;
+    background: #000;
+    top: 30px;
 }
-div.foto {
-    display: inline-block;
+li img {
+    display: block;
+    opacity: 0.6;
 }
-img {
-
-}
-
-.foto span {
+li p {
     position: absolute;
-    right: 25px;
-    bottom: 25px;
+    right: 0;
+    bottom: 0;
+    margin: 0;
     color: #fff;
-    z-index: 10;
 }
-
-
 
