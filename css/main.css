@@ -5,8 +5,12 @@ body {
 
     
 }
-h1 {
-
+#linea {
+    position: absolute;
+    top:40px;
+    display: inline;
+    border-top: solid 2px black;
+    color: #fff;
 }
 h1 span {
     border-bottom: solid 2px black;
