@@ -1,37 +1,36 @@
-body {
-    margin: 0 20px;
-}
-.container {
-    margin: 0 20px;
-}
-.titulo hr {
-    position: absolute;
-    width: 60px;
+ul {
+    width: 642px;
+    margin: 0 auto;
 }
 
 .titulo {
-    font-size: 20px;
+
 }
-ul {
+.titulo h2 {
+    font-size: 60px;    
+}
+.titulo hr {
+    width: 90px;
+    position: absolute;
+    top: 110px;    
+}
+ul {  
     list-style: none;
-    padding: 0;   
+    padding: 0;
 }
 li {
     position: relative;
     display: inline-block;
-    outline: 1px solid red;
     background: #000;
-    top: 30px;
 }
-li img {
-    display: block;
-    opacity: 0.6;
-}
-li p {
+ul li p {
     position: absolute;
-    right: 0;
     bottom: 0;
-    margin: 0;
+    right: 0;
     color: #fff;
+    margin: 0;
 }
-
+img {
+    display: block;
+    opacity: .6;
+}
